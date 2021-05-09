@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">AirSENSE</string>
+    <string name="setting">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="notification">Thông báo</string>
+    <string name="share_friend">Chia sẻ với bạn bè</string>
+    <string name="about_us">Về chúng tôi</string>
+    <string name="use_dev">Dành cho nhà phát triển</string>
+    <string name="connect_device_wifi">Kết nối thiết bị với wifi</string>
+    <string name="signin_for_dev">Đăng nhập dành cho NPT</string>
+    <string name="air_map" translatable="false">AirSENSE</string>
+    <string name="sologan">Đồng hành cùng sức khỏe của bạn</string>
+    <string name="map_api_key" translatable="false">AIzaSyB7NCmwc9ERz5yF_FAwp9pPA4TZod46rTY</string>
+    <string name="error_network">LỖI MẠNG</string>
+    <string name="message_error_network">Vui lòng kiểm tra kết nối wifi/3G/4G</string>
+    <string name="warning_aqi_very_unhealthy">Rất kém</string>
+    <string name="warning_aqi_unhealthy">"Kém"</string>
+    <string name="warning_aqi_unhealthy_for_sensitive">Xấu</string>
+    <string name="warning_aqi_hazardous">Nguy hại</string>
+    <string name="warning_aqi_moderate">Trung bình</string>
+    <string name="warning_aqi_good">Tốt</string>
+    <string name="type_maps">Bản đồ vệ tinh</string>
+    <string name="detail_info">THÔNG TIN CHI TIẾT</string>
+    <string name="name_device">Tên thiết bị</string>
+    <string name="location">Địa điểm</string>
+    <string name="type">Phân loại</string>
+    <string name="real_time">Thời gian hoạt động</string>
+    <string name="aqi_index">AQI</string>
+    <string name="pm25_index">PM2.5 (ug/m3)</string>
+    <string name="pm1_index">PM1 (ug/m3)</string>
+    <string name="pm10_index">PM10 (ug/m3)</string>
+    <string name="co_index">CO (ug/m3)</string>
+    <string name="temperature">Nhiệt độ </string>
+    <string name="humidity">Độ ẩm </string>
+    <string name="air_quality">Chất lượng</string>
+    <string name="aqi_chart_a_hour">Đồ thị dữ liệu AQI trong 24 giờ theo ngày</string>
+    <string name="temp">temp</string>
+    <string name="view_details">XEM CHI TIẾT</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="choose_language">CHỌN NGÔN NGỮ</string>
+    <string name="map">Bản đồ</string>
+    <string name="list">Danh sách</string>
+    <string name="details">Chi tiết</string>
+    <string name="press_exit">Nhấn thoát lần nữa để thoát ứng dụng</string>
+    <string name="contact2">AirSENSE phiên bản web: </string>
+    <string name="contact3" translatable="false">Website lab: </string>
+    <string name="back">Quay lại</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="passwifi">nhập mật khẩu</string>
+    <string name="device_count">Số lượng thiết bị</string>
+    <string name="enter_number">nhập số lượng</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="status">Trạng thái</string>
+    <string name="no_wifi_connection">Không có kết nối wifi</string>
+    <string name="configure_wifi_change_message" translatable="false">Wifi disconnected or changed</string>
+    <string name="wifi_5g_message" translatable="false">Device don\'t support 5G Wifi, please make sure the currently connected Wifi is 2.4G</string>
+    <string name="location_disable_message" translatable="false">Location(GPS) is disable</string>
+    <string name="signup">ĐĂNG NHẬP QUYỀN ADMIN</string>
+    <string name="buttonSignup">Đăng nhập</string>
+    <string name="username">Tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="favorite">Đã thêm địa điểm vào mục yêu thích</string>
+    <string name="un_favorite">Đã bỏ địa điểm yêu thích</string>
+    <string name="loca_all">Tất cả</string>
+    <string name="loca_fav">Yêu thích</string>
+    <string name="option">Tùy chọn</string>
+    <string name="feedback_error">Báo lỗi</string>
+    <string name="write_feedback">Viết phản hồi</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+    <string name="title">Tiêu đề</string>
+    <string name="address">Địa chỉ của bạn</string>
+    <string name="phone_number">Số điện thoại của bạn</string>
+    <string name="content_message">Nội dung phản hồi</string>
+
+</resources>

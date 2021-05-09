@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/Relay1"
+        android:background="@color/HeaderLayoutSignUp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:text="@string/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/Relay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittextusername"
+            android:singleLine="true"
+            android:drawablePadding="15dp"
+            android:hint="@string/username"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/edittextPass"
+            android:singleLine="true"
+            android:drawablePadding="15dp"
+            android:hint="@string/pass"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttonLogIn"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#16AAE0"
+            android:text="@string/buttonSignup"
+            android:background="@drawable/custom_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

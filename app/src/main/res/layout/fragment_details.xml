@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="-80dp"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/done">
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/location"
+                            android:textSize="16sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textviewLoca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp">
+                        </TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/aqi_index"
+                            android:textSize="16sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textviewAQIindex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp">
+                        </TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/pm25_index"
+                            android:textSize="16sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textviewPM25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp">
+                        </TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/pm1_index"
+                            android:textSize="16sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textviewPM1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/pm10_index"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/textviewPM10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/co_index"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/textviewCO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/temperature"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/textviewTem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/humidity"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/textviewHumi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:text="@string/air_quality"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/textviewQuality"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/temp"
+                            android:textSize="16sp"></TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/press_tabLayout"
+                android:textSize="15sp"
+                android:text="@string/aqi_chart_a_hour"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChart"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+            </com.github.mikephil.charting.charts.LineChart>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>

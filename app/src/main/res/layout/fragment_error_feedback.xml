@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:textSize="16dp"
+        android:padding="18dp"
+        android:textColor="#000000"
+        android:text="Lưu ý: bạn cần phải có gmail để phản hồi về sản phẩm cho chúng tôi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:background="@drawable/custom_edt_error_feedback"
+        android:padding="16dp"
+        android:id="@+id/edittextTitleFeedback"
+        android:hint="@string/title"
+        android:textSize="18dp"
+        android:textCursorDrawable="@drawable/cusor_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <androidx.appcompat.widget.SearchView
+        android:textSize="16dp"
+        android:textCursorDrawable="@drawable/cusor_color"
+        android:background="@drawable/custom_edt_error_feedback"
+        android:id="@+id/searchViewAddress"
+        app:defaultQueryHint="@string/address"
+        app:searchIcon="@null"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.SearchView>
+
+    <EditText
+        android:background="@drawable/custom_edt_error_feedback"
+        android:padding="16dp"
+        android:id="@+id/edittextPhoneFeedback"
+        android:inputType="number"
+        android:hint="@string/phone_number"
+        android:textSize="18dp"
+        android:textCursorDrawable="@drawable/cusor_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:background="@drawable/custom_content_edt_error"
+        android:padding="16dp"
+        android:id="@+id/edittextContentFeedback"
+        android:hint="@string/content_message"
+        android:textSize="18dp"
+        android:textCursorDrawable="@drawable/cusor_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+</LinearLayout>

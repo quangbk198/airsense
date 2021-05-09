@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#016355</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorDialogLanguage">#1CBE57</color>
+    <color name="colorBackground">#62A3CD</color>
+    <color name="text_white">#FFFF</color>
+    <color name="tab_layout">#808080</color>
+    <color name="press_tabLayout">#0573CF</color>
+    <color name="text_black">#000</color>
+    <color name="Green_Good">#2FB22E</color>
+    <color name="colorTransparent">#43000000</color>
+    <color name="Listview">#e2e4fe</color>
+    <color name="Yellow_Moderate">#FFFF00</color>
+    <color name="Orange_UnhealthyForSensitiveGroup">#FFB801</color>
+    <color name="Red_Unhealthy">#FE0000</color>
+    <color name="Purple_VeryUnhealthy">#7E3587</color>
+    <color name="Maroon_Hazardous">#6B001E</color>
+    <color name="GridColorBackground">#b9a1a8</color>
+    <color name="HeaderLayoutSignUp">#16AAE0</color>
+</resources>
